@@ -99,8 +99,11 @@
 		27789B072A261188006C52A7 /* ChaApp */ = {
 			isa = PBXGroup;
 			children = (
-				27789B082A261188006C52A7 /* AppDelegate.swift */,
-				27789B0A2A261188006C52A7 /* SceneDelegate.swift */,
+				27789B3D2A261265006C52A7 /* ViewModels */,
+				27789B3C2A261254006C52A7 /* Models */,
+				27789B3B2A261232006C52A7 /* Controllers */,
+				27789B3A2A261222006C52A7 /* Views */,
+				27789B382A2611D9006C52A7 /* Resources */,
 				27789B0C2A261188006C52A7 /* ViewController.swift */,
 				27789B0E2A261188006C52A7 /* Main.storyboard */,
 				27789B112A26118C006C52A7 /* Assets.xcassets */,
@@ -125,6 +128,43 @@
 				27789B2B2A26118C006C52A7 /* ChaAppUITestsLaunchTests.swift */,
 			);
 			path = ChaAppUITests;
+			sourceTree = "<group>";
+		};
+		27789B382A2611D9006C52A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27789B082A261188006C52A7 /* AppDelegate.swift */,
+				27789B0A2A261188006C52A7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27789B3A2A261222006C52A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27789B3B2A261232006C52A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27789B3C2A261254006C52A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27789B3D2A261265006C52A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
