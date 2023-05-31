@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  ProfileViewController.swift
 //  ChaApp
 //
 //  Created by Tami Zouine on 30/5/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

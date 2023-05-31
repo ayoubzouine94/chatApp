@@ -21,6 +21,8 @@
 		27789B472A261A40006C52A7 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27789B462A261A40006C52A7 /* PhotoViewerViewController.swift */; };
 		27789B492A261A58006C52A7 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27789B482A261A58006C52A7 /* VideoPlayerViewController.swift */; };
 		27789B4B2A261A86006C52A7 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27789B4A2A261A86006C52A7 /* NewConversationViewController.swift */; };
+		27789B4D2A261BCF006C52A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27789B4C2A261BCF006C52A7 /* ProfileViewController.swift */; };
+		27789B502A263D3D006C52A7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27789B4F2A263D3D006C52A7 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		27789B462A261A40006C52A7 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		27789B482A261A58006C52A7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		27789B4A2A261A86006C52A7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		27789B4C2A261BCF006C52A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		27789B4F2A263D3D006C52A7 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			children = (
 				27789B082A261188006C52A7 /* AppDelegate.swift */,
 				27789B0A2A261188006C52A7 /* SceneDelegate.swift */,
+				27789B4F2A263D3D006C52A7 /* Extentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -158,11 +163,11 @@
 			isa = PBXGroup;
 			children = (
 				27789B0C2A261188006C52A7 /* ConversationViewController.swift */,
-				27789B422A261A01006C52A7 /* LoginViewController.swift */,
-				27789B442A261A21006C52A7 /* RegisterViewController.swift */,
+				27789B4E2A261C14006C52A7 /* Login */,
 				27789B462A261A40006C52A7 /* PhotoViewerViewController.swift */,
 				27789B482A261A58006C52A7 /* VideoPlayerViewController.swift */,
 				27789B4A2A261A86006C52A7 /* NewConversationViewController.swift */,
+				27789B4C2A261BCF006C52A7 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -188,6 +193,15 @@
 				27789B0E2A261188006C52A7 /* Main.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		27789B4E2A261C14006C52A7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				27789B422A261A01006C52A7 /* LoginViewController.swift */,
+				27789B442A261A21006C52A7 /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,10 +337,12 @@
 			files = (
 				27789B432A261A01006C52A7 /* LoginViewController.swift in Sources */,
 				27789B452A261A21006C52A7 /* RegisterViewController.swift in Sources */,
+				27789B502A263D3D006C52A7 /* Extentions.swift in Sources */,
 				27789B4B2A261A86006C52A7 /* NewConversationViewController.swift in Sources */,
 				27789B0D2A261188006C52A7 /* ConversationViewController.swift in Sources */,
 				27789B492A261A58006C52A7 /* VideoPlayerViewController.swift in Sources */,
 				27789B092A261188006C52A7 /* AppDelegate.swift in Sources */,
+				27789B4D2A261BCF006C52A7 /* ProfileViewController.swift in Sources */,
 				27789B0B2A261188006C52A7 /* SceneDelegate.swift in Sources */,
 				27789B472A261A40006C52A7 /* PhotoViewerViewController.swift in Sources */,
 			);
