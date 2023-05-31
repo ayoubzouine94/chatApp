@@ -146,7 +146,6 @@ class RegisterViewController: UIViewController {
         let alert = UIAlertController(title: "Hoops", message: "Ennter All Information", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Dissmiss", style: .cancel,handler: nil))
         present(alert,animated: true)
-        
     }
 
     override func viewDidLayoutSubviews() {
